@@ -44,7 +44,7 @@
     #button-group{
         position: absolute;
        top: 285px;
-       right: 725px;
+       right: 728px;
         
     }
     #navButtons{
@@ -54,16 +54,21 @@
         left: 250px;
     }
     
-
-    
-    .column {
-        float: left;
-        width: 512px;
-        height: 300px;
-        margin: 10px;
+    .column{
+        position: absolute
+        
     }
-    .row:after {
-        content: "";
-        display: table;
-        clear: both;
+    .left{
+        width: 328px;
+        top: 408px;
+        right: 678px;
+            }
+    .right{
+        width:512px;
+        top:408px;
+    }
+    .row:after{
+        content:"";
+        display:table;
+        clear:both;
     }
