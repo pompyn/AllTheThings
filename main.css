@@ -3,8 +3,11 @@
     
 }
 .container{
+    position: absolute;
     width:850px;
     height:500px;
+    left: 350px;
+
     background-color:white;
     }
     #head{
@@ -31,19 +34,19 @@
     font-size: 50px;
     }
     #navigation-bar{
-    width: 850px;
+        width: 850px;
     height: 100px;
     background-color: indigo;
 
     }
    
-    #small-navigation{
+    #button-group{
         position: absolute;
-       right: 100px;
-       top: 259px;
+       left: 500px;
+       top: -100px;
       width: 300px;
       height: 50px;
-      background-color: purple; 
+      
  }
     #button-group{
         position: absolute;
@@ -60,18 +63,30 @@
     
     .column{
         position: absolute
+        
             }
-    .left{
+    .columnRight{
+        position: absolute;
         width: 328px;
-        top: 408px;
-        right: 678px;
+        top: 400px;
+        left: 0px;
+        height: 400px;
             }
-    .right{
+    .columnLeft{
+        position: relative;
+        left:338px;
         width:512px;
-        top:408px;
+        top:380px;
+        height: 400px;
+
     }
     .row:after{
         content:"";
         display:table;
         clear:both;
     }
+        .row{
+            position: absolute;
+            left: 350px;
+        }
+
